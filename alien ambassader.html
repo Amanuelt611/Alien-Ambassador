@@ -1,0 +1,165 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ALIEN AMBASSADER</title>
+<style>
+	* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+	body{
+		background-color: black;
+		color: #00ffff;
+	}
+	header{
+		text-align: center;
+		padding: 30px;
+		border-bottom: 1px solid #00ffff;
+		background-color: black;
+	}
+	header h1{
+		font-size: 2.2em;
+		letter-spacing: 3px;
+
+	}
+	.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+.card {
+    background: linear-gradient(135deg, rgba(0,255,255,0.1), rgba(0,0,0,0.8));
+    border: 2px solid #00ffff;
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 0 30px #00ffff;
+}
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;	
+}
+.profile img{
+	width: 220px;
+	height: 220px;
+	border-radius: 50px;
+	border: 3px solid #00ffff;
+	box-shadow: 0 0 20px #00ffff;
+}
+.details {
+    flex: 1;
+}
+
+.details h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.details p {
+    margin: 6px 0;
+}
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: transparent;
+    border: 2px solid #00ffff;
+    color: #00ffff;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #00ffff;
+    color: black;
+}
+.section {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px solid #00ffff;
+}
+.more{
+	width: 120px;
+	height: 20px;
+	border: 1px solid #00ffff;
+	border-radius: 20px;
+	color: #00ffff;
+	margin-left: 610px;
+	transition: 0.3s;
+}
+.more a{
+	text-decoration: none;
+	color: #00ffff;
+	margin-left: 15px;
+	transition: 0.3s;
+}
+.more:hover {
+	background: #00ffff;
+}
+.more a:hover {
+	color: black;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #00ffff;
+    margin-top: 30px;
+    font-size: 0.8em;
+}
+</style>
+</head>
+<body>
+<header>
+	<h1>ALIEN AMBASSADER</h1>
+	<p>Official Extraterrestrial Diplomatic Credentials</p>
+</header>
+<div class="container">
+	<div class="card">
+		<div class="profile">
+			<img src="pro.jpg">
+		
+	<div class="details">
+		<h2>Ambassador Zor'Xel Tharion</h2>
+            <p><strong>Species:</strong> Luminarian</p>
+            <p><strong>Home Planet:</strong> Xythera Prime</p>
+            <p><strong>Star System:</strong> Andromeda Sector 7</p>
+            <p><strong>Diplomatic Rank:</strong> Supreme Interstellar Envoy</p>
+            <p><strong>Mission:</strong> Earth Peace & Technology Alliance</p>
+            <button onclick="verify()">Verify Credentials</button>
+	</div>
+	</div>
+	<div class="section">
+        <h3>Special Abilities</h3>
+        <ul>
+            <li>Telepathic Communication</li>
+            <li>Quantum Warp Navigation</li>
+            <li>Interdimensional Translation</li>
+            <li>Energy Shield Manipulation</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h3>Intergalactic Certifications</h3>
+        <ul>
+            <li>Galactic Federation Council Authorization</li>
+            <li>Peace Treaty Negotiator – 42 Star Systems</li>
+            <li>Cosmic Ethics Compliance Approved</li>
+        </ul>
+    </div>
+    <div class="more">
+    	<a href="">READMORE</a>
+    </div>
+</div>
+</div>
+<footer>
+    © 3026 Galactic Federation | Secure Cosmic Transmission Active
+</footer>
+</body>
+</html>
